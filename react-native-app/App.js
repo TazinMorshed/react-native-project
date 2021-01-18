@@ -4,11 +4,19 @@ import { StyleSheet,  View } from 'react-native';
 import CarsList from './components/CarsList'
 import Header from './components/Header'
 
+import { NavigationContainer } from '@react-navigation/native';
+import Router from './components/navigation/Router';
+import Login from './components/login';
+import ViewScreen from './components/ViewScreen';
+
 export default function App() {
   return (
     <View style={styles.container}>
-        <Header/>
-        <CarsList/>
+      <NavigationContainer>
+      <Router/>
+      </NavigationContainer>
+        
+ 
       <StatusBar style="auto" />
     </View>
   );
@@ -23,7 +31,6 @@ const styles = StyleSheet.create({
   },
 
 
-  // 1:35:46 FlatList Snap Effect YOUTUBE 
-  // https://www.youtube.com/watch?v=iQ_0Fd_N3Mk
+  
   
 });

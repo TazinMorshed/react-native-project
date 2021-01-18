@@ -2,10 +2,10 @@ import React from 'react';
 import {View, Text, ImageBackground, Linking} from 'react-native'; 
 import styles from './styles';
 import StyledButton from '../StyledButton'
-
+import {useNavigation} from "@react-navigation/native";
 
 const CarItem = (props) => {
-  
+   const navigation = useNavigation();
   const {name, tagline, image, taglineCTA} = props.car; 
   
   return (
@@ -45,7 +45,7 @@ const CarItem = (props) => {
         <StyledButton type='secondary'
             content= {"Existing Invetory"}
             onPress={() => {
-                console.warn("Existing Inventory was pressed");
+               navigation.navigate('TeslaTequila');
             }}
         />
       </View>
