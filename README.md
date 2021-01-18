@@ -30,5 +30,8 @@ Our main focus is to make a open-source project which can we be used by any smal
 - Used React Navigation v5 [.](https://reactnavigation.org/blog/2020/02/06/react-navigation-5.0/)
 - Documentation [here.](https://reactnative.dev/docs/getting-started)
 
+OS : Andriod/iOS. 
+made using React Native and JS. 
+
 
 
