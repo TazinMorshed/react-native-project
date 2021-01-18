@@ -31,7 +31,7 @@ Our main focus is to make a open-source project which can we be used by any smal
 - Documentation [here.](https://reactnative.dev/docs/getting-started)
 
 OS : Andriod/iOS. 
-made using React Native and JS. 
+Made using React Native and JS. 
 
 
 
