@@ -27,7 +27,7 @@ Our main focus is to make a open-source project which can we be used by any smal
     - [Video 2.](https://www.youtube.com/watch?v=_K41vd_W2qE)
     - [Video 3.](https://www.youtube.com/watch?v=NxJCSI7a8wk)
 - Install expo using [this.](https://docs.expo.io/get-started/installation/)
-- Used React Navigation v5 [.] (https://reactnavigation.org/blog/2020/02/06/react-navigation-5.0/)
+- Used React Navigation v5 [.](https://reactnavigation.org/blog/2020/02/06/react-navigation-5.0/)
 - Documentation [here.](https://reactnative.dev/docs/getting-started)
 
 
