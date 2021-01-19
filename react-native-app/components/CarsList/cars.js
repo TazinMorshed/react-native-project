@@ -1,4 +1,4 @@
-
+import {View, Text, ImageBackground, Linking} from 'react-native'; 
 export default [{
   name: 'Model S',
   tagline: 'Starting at $69,420',
