@@ -17,7 +17,7 @@ export default [{
   tagline: 'Order Online for',
   taglineCTA: 'Touchless Delivery',
   image: require('../../assets/images/cybertruck.jpeg'),
-  link: 'https://www.tesla.com/cybertruck',
+  link: 'https://www.tesla.com/cybertruck.jpeg',
 },{
   name: 'Model X',
   tagline: 'Order Online for',
