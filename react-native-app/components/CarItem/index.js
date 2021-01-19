@@ -33,7 +33,7 @@ const CarItem = (props) => {
         </View>
 
 
-        <View style={styles.buttonsContainer}>
+        <View style={styles.buttonsContainer}> //One Button for all
           
         <View style={styles.button1}>
         <StyledButton type='primary'
