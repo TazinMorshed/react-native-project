@@ -1,4 +1,3 @@
-import {View, Text, ImageBackground, Linking} from 'react-native'; 
 
 export default [{
   name: 'Model S',
