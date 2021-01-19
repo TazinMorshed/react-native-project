@@ -17,4 +17,10 @@ export default [{
   tagline: 'Order Online for',
   taglineCTA: 'Touchless Delivery',
   image: require('../../assets/images/ModelY.jpeg'),
-}];
+}, {
+    name: 'Cybertruck',
+    tagline: 'Order Online for',
+    taglineCTA: 'Touchless Delivery',
+    image: require('../../assets/images/Cybertruck.jpg'),    
+    
+    }];
