@@ -14,6 +14,7 @@ export default function App() {
     <View style={styles.container}>
       <NavigationContainer>
       <Router/>
+      
       </NavigationContainer>
         
  

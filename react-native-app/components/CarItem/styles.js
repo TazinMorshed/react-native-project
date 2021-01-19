@@ -43,8 +43,19 @@ const styles = StyleSheet.create({
     position: 'absolute',
     bottom: 50,
     width: '100%',
+    
    
   },
+  
+  button1:{
+    padding:7,
+  },
+  button2:{
+   
+    padding: 7,
+    
+  },
+
   
   
     

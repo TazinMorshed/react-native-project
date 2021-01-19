@@ -6,7 +6,7 @@ import {useNavigation} from "@react-navigation/native";
 
 const CarItem = (props) => {
    const navigation = useNavigation();
-  const {name, tagline, image, taglineCTA} = props.car; 
+  const {name, tagline, image, taglineCTA, link} = props.car; 
   
   return (
         <View style={styles.carContainer}>
@@ -34,20 +34,24 @@ const CarItem = (props) => {
 
 
         <View style={styles.buttonsContainer}>
-
+          
+        <View style={styles.button1}>
         <StyledButton type='primary'
             content= {"Custom Order"}
             onPress={() => {
-                Linking.openURL('https://www.instagram.com/revival.bd/');
+                Linking.openURL(link);
             }}
         />
+        </View>
 
+        <View style={styles.button2}>
         <StyledButton type='secondary'
             content= {"Existing Invetory"}
             onPress={() => {
                navigation.navigate('TeslaTequila');
             }}
         />
+        </View>
       </View>
 
       </View>

@@ -6,13 +6,15 @@ const styles = StyleSheet.create({
     container: {
         width:'100%',
         padding: 10,
-        
+        borderRadius: 100,        
    },
 
    button: { 
         height: 30,
         justifyContent: 'center', 
-        alignItems: 'center',      
+        alignItems: 'center',
+
+
    },
 
    text: {

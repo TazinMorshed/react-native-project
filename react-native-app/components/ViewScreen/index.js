@@ -23,12 +23,9 @@ return (
     <SafeAreaView style={styles.container}>
       <ImageBackground
       
-        //We are using online image to set background
-       source={require('./black.jpeg')}
+        source={require('./black.jpeg')}
         style={styles.backImage} 
-          
-        //You can also set image from your project folder
-        //require('./images/background_image.jpg')        //
+      
       >
 
 
@@ -45,7 +42,7 @@ return (
           <View style={styles.centerContentStyle}>
        
           <TouchableOpacity onPress={() => {
-                Linking.openURL('https://www.instagram.com/revival.bd/');
+                Linking.openURL('https://shop.tesla.com/product/tesla-tequila');
             }}>
             <Image
               source={require('./tesla-taquila.jpg')}
